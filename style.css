@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.box{
+    position: absolute;
+    padding-top: 20px;
+    display: inline-flex;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 95vh;
+    box-shadow: 20px 12px rgb(205 241 5 / 55%) inset, 20px 12px rgb(5 163 241 / 64%);
+
+    /* overflow: hidden; */
+}
+
+.bg{
+    height: 95vh;
+    z-index: -2;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 77%;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-left: 43px;
+    margin-right: 143px;
+}
+
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.ganeshimg{
+    width: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.rowdata {
+    padding-left: 50px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.paradraf {
+    display: inline;
+    font-weight: bold;
+}
+
+.data {
+    display: inline;
+    font-family: monospace;
+}
+
+ h1{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.horizontalLine{
+    margin: 40px;
+margin-left: 50px;
+width: 50%;
+border: 10px solid black;
+border-radius: 40px;
+}
+
+/* .rowdata {
+    padding-left: 150px;
+    display: inline-flex
+;
+    justify-content: space-around;
+    width: 50%;
+} */
